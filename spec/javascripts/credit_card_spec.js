@@ -1,6 +1,6 @@
 describe("CreditCard", function () {
   // Other specs omitted.  
-  it("validates when text field loses focus", function() {
+  xit("validates when text field loses focus", function() {
     loadFixtures("order_form.html");
     $("#card_number").validateCreditCardNumber();
     $("#card_number").val("123");
