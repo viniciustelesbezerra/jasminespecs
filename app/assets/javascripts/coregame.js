@@ -10,9 +10,6 @@ function gameOver() {
 }
 
 startGame = {
-		x : function() {
-			return "dsds"
-		},
 		init : function() {
 			done = 0;
 			array.sort(function() { return 0.5 - Math.random() });
