@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jasminetest</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag  "application"  %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<p id="credit">
+<input type="text" id="card_number">
+<div id="card_number_error"></div>
+</p>
+<%= yield %>
+
+</body>
+</html>
