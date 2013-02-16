@@ -99,20 +99,6 @@ describe("Memory Game", function () {
 
 	}); 
 
- 	describe("Object startGame.selectCards WITH spy", function () {
-		beforeEach(function() {
-			spyOn(startGame, 'selectCards');
-    	startGame.selectCards();
-		});
-
-		it("tracks that the spy was called", function() {
-	    expect(startGame.selectCards).toHaveBeenCalled();
-	   	expect(startGame.selectCards.calls.length).toEqual(1);
-	   	expect(startGame.selectCards).toHaveBeenCalledWith();
-		});
-		
-	});
-
 	describe("Object startGame.selectCards WITH Spy", function () {
 		beforeEach(function() {
 	    spyOn(startGame, 'selectCards');
