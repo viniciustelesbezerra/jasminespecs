@@ -1,6 +1,7 @@
 var choose = 0;
 var done;
 var current = [];
+var cards;
 array = [1,2,3,1,2,3];
 
 function gameOver() { 
@@ -17,7 +18,7 @@ startGame = {
 			$("div.numbers").click(this.selectCards);
 		},
 		sortCards : function() {
-			var cards = [{val:array}];
+			cards = [{val:array}];
 			$("div#content").empty();
 			//$("#gameTemplate").tmpl(cards).appendTo("div#content");
 		},
