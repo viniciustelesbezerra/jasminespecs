@@ -398,3 +398,41 @@ Processing by ApplicationController#index as HTML
 Compiled coregame.js  (0ms)  (pid 7666)
 Compiled application.js  (3ms)  (pid 7666)
 Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2013-02-18 15:57:09 -0300
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (11.0ms)
+Compiled application.css  (1ms)  (pid 11224)
+Compiled jquery.js  (0ms)  (pid 11224)
+Compiled jquery_ujs.js  (0ms)  (pid 11224)
+Compiled jquery-tmpl.js  (1ms)  (pid 11224)
+Compiled coregame.js  (0ms)  (pid 11224)
+Compiled ajaxsearch.js  (0ms)  (pid 11224)
+Compiled credit_card.js  (0ms)  (pid 11224)
+Compiled memory_game.js  (1ms)  (pid 11224)
+Compiled application.js  (198ms)  (pid 11224)
+Completed 200 OK in 823ms (Views: 820.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application" for 127.0.0.1 at 2013-02-18 15:57:28 -0300
+Processing by ApplicationController#index as HTML
+  Rendered application/index.html.erb within layouts/application (0.0ms)
+Compiled ajaxsearch.js  (0ms)  (pid 11224)
+Compiled application.js  (5ms)  (pid 11224)
+Completed 200 OK in 97ms (Views: 96.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/application/search" for 127.0.0.1 at 2013-02-18 15:57:31 -0300
+Processing by ApplicationController#search as JSON
+  Parameters: {"name"=>"John", "location"=>"Boston"}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/application/search" for 127.0.0.1 at 2013-02-18 15:58:34 -0300
+Processing by ApplicationController#search as JSON
+  Parameters: {"name"=>"John", "location"=>"Boston"}
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/__meta_request/718a58812d1d83c27dd1dee7a6ddd34a.json" for 127.0.0.1 at 2013-02-18 15:58:34 -0300

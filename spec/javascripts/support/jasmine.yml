@@ -41,7 +41,11 @@ stylesheets:
 #   - helpers/**/*.js
 #
 helpers:
-  - 'helpers/**/*.js'
+  - helpers/SpecHelper.js
+  - helpers/jasmine-jquery.js
+  - helpers/jasmine-ajax.js
+  - helpers/jasmine-ajax-mock.js
+  #- 'helpers/**/*.js'
 
 # spec_files
 #
