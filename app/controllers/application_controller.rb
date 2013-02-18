@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   end
   
   def search
-  	render json: { response:"ok", list:[1,2,3,90] }
+  	render json: {resposta:"ok"}
   end
 
 end
