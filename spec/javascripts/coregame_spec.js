@@ -5,7 +5,6 @@ describe("Core Game", function () {
 
 	it("variables", function() {
 		expect(choose).toEqual(0);
-		expect(done).toBeDefined();
 		expect(current).toEqual([]);
 		expect(array).toContain(1,2,3);
 	});

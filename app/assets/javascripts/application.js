@@ -13,5 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery-tmpl
-//= require coregame
+//= require memory_game
+//= require class_core_coffee
 //= require_tree .
