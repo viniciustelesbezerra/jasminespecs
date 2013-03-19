@@ -11,3 +11,22 @@
  *= require_self
  *= require_tree .
  */
+div.numbers { 
+        padding-right: 40px;
+        display: inline;
+        background-color: gray;
+        margin-right:5px;
+}
+
+div.numbers:hover {
+        background-color: black;
+}
+
+div#content {
+        width: 200px;
+        cursor: pointer
+}
+
+span.numbervalue {
+        opacity: 0;
+}
