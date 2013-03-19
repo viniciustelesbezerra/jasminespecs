@@ -1,4 +1,4 @@
-var choose = 0;
+/*var choose = 0;
 var done;
 var current = [];
 var cards;
@@ -45,3 +45,4 @@ startGame = {
  			}	
 		},
 	};
+*/
