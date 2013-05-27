@@ -19,7 +19,6 @@ class @startGame
 		#$("#gameTemplate").tmpl(cards).appendTo("div#content")	
 	
 	selectCards: ->
-		console.log "sssselect cards choose"
 		choose++
 		$(this).children("span").toogleOpacity("show")
 			
