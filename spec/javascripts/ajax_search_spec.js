@@ -17,10 +17,9 @@ describe("Ajax Search", function () {
 	});
 
     it("should be successful", function() {
+			expect(success).toHaveBeenCalled();
 	    //jasmine.Ajax.stubRequest("GET", requestUrl).andReturn({body: {received_response: true}});
 	    //expect(jasmine.Ajax.getRequest("GET", requestUrl)).toHaveBeenRequested();
-	    expect(success).toHaveBeenCalled();
-
 	    //expect(success.mostRecentCall.args[0]).toEqual({received_response: true});
 	    //expect(success.mostRecentCall.args[2].status).toEqual(200);
     });
