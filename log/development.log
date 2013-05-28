@@ -3105,3 +3105,187 @@ Processing by Jasminerice::SpecController#fixtures as HTML
   Parameters: {"1369672727952"=>nil, "filename"=>"index"}
   Rendered spec/javascripts/fixtures/index.html (0.1ms)
 Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:33:08 -0300
+Connecting to database specified by database.yml
+Processing by Jasminerice::SpecController#index as HTML
+Compiled class_core_coffee.js  (589ms)  (pid 2556)
+Compiled class_core_spec.js  (196ms)  (pid 2556)
+Compiled spec.js  (155ms)  (pid 2556)
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (1409.9ms)
+Completed 200 OK in 1443ms (Views: 1442.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369762391790" for 127.0.0.1 at 2013-05-28 14:33:11 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369762391790"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.6ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:45:08 -0300
+Processing by Jasminerice::SpecController#index as HTML
+Compiled class_core_spec.js  (293ms)  (pid 2556)
+Compiled spec.js  (159ms)  (pid 2556)
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (544.5ms)
+Completed 200 OK in 546ms (Views: 546.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369763110205" for 127.0.0.1 at 2013-05-28 14:45:10 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369763110205"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.1ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:46:40 -0300
+Processing by Jasminerice::SpecController#index as HTML
+Compiled class_core_spec.js  (235ms)  (pid 2556)
+Compiled spec.js  (159ms)  (pid 2556)
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (480.9ms)
+Completed 200 OK in 482ms (Views: 482.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369763201710" for 127.0.0.1 at 2013-05-28 14:46:41 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369763201710"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:48:45 -0300
+Processing by Jasminerice::SpecController#index as HTML
+Compiled class_core_spec.js  (202ms)  (pid 2556)
+Compiled spec.js  (158ms)  (pid 2556)
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (448.8ms)
+Completed 200 OK in 451ms (Views: 450.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369763327230" for 127.0.0.1 at 2013-05-28 14:48:47 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369763327230"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:50:36 -0300
+Processing by Jasminerice::SpecController#index as HTML
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (10.2ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369763437109" for 127.0.0.1 at 2013-05-28 14:50:37 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369763437109"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:51:46 -0300
+Processing by Jasminerice::SpecController#index as HTML
+Compiled class_core_spec.js  (200ms)  (pid 2556)
+Compiled spec.js  (158ms)  (pid 2556)
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (441.2ms)
+Completed 200 OK in 443ms (Views: 442.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369763508423" for 127.0.0.1 at 2013-05-28 14:51:48 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369763508423"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.1ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:51:58 -0300
+Processing by Jasminerice::SpecController#index as HTML
+Compiled class_core_spec.js  (202ms)  (pid 2556)
+Compiled spec.js  (158ms)  (pid 2556)
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (397.8ms)
+Completed 200 OK in 400ms (Views: 399.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369763519519" for 127.0.0.1 at 2013-05-28 14:51:59 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369763519519"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.1ms)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:52:36 -0300
+Processing by Jasminerice::SpecController#index as HTML
+Compiled class_core_coffee.js  (183ms)  (pid 2556)
+Compiled class_core_spec.js  (200ms)  (pid 2556)
+Compiled spec.js  (155ms)  (pid 2556)
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (578.6ms)
+Completed 200 OK in 580ms (Views: 579.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369763557710" for 127.0.0.1 at 2013-05-28 14:52:37 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369763557710"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.1ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:53:22 -0300
+Processing by Jasminerice::SpecController#index as HTML
+Compiled class_core_coffee.js  (188ms)  (pid 2556)
+Compiled class_core_spec.js  (203ms)  (pid 2556)
+Compiled spec.js  (175ms)  (pid 2556)
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (674.1ms)
+Completed 200 OK in 676ms (Views: 675.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369763604060" for 127.0.0.1 at 2013-05-28 14:53:24 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369763604060"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.1ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:54:16 -0300
+Processing by Jasminerice::SpecController#index as HTML
+Compiled class_core_coffee.js  (185ms)  (pid 2556)
+Compiled class_core_spec.js  (199ms)  (pid 2556)
+Compiled spec.js  (158ms)  (pid 2556)
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (636.6ms)
+Completed 200 OK in 638ms (Views: 637.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369763657881" for 127.0.0.1 at 2013-05-28 14:54:17 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369763657881"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.5ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:55:15 -0300
+Processing by Jasminerice::SpecController#index as HTML
+Compiled class_core_coffee.js  (271ms)  (pid 2556)
+Compiled class_core_spec.js  (197ms)  (pid 2556)
+Compiled spec.js  (160ms)  (pid 2556)
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (674.0ms)
+Completed 200 OK in 676ms (Views: 675.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369763716754" for 127.0.0.1 at 2013-05-28 14:55:16 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369763716754"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.1ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine" for 127.0.0.1 at 2013-05-28 14:57:24 -0300
+Processing by Jasminerice::SpecController#index as HTML
+Compiled class_core_spec.js  (199ms)  (pid 2556)
+Compiled spec.js  (154ms)  (pid 2556)
+  Rendered /Users/vinicius/.rvm/gems/ruby-2.0.0-p0/gems/jasminerice-0.0.10/app/views/jasminerice/spec/index.html.haml (391.0ms)
+Completed 200 OK in 393ms (Views: 392.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jasmine/fixtures/index.html?1369763845595" for 127.0.0.1 at 2013-05-28 14:57:25 -0300
+Processing by Jasminerice::SpecController#fixtures as HTML
+  Parameters: {"1369763845595"=>nil, "filename"=>"index"}
+  Rendered spec/javascripts/fixtures/index.html (0.1ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)

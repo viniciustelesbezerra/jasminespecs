@@ -2,6 +2,8 @@
 
 describe "Core Game", ->
 	beforeEach ->
+		@sg = null
+		@sg = new startGame
 		loadFixtures('index.html')
 
 	it "variables", ->
@@ -20,6 +22,7 @@ describe "Core Game", ->
 			expect(window.gameOver.calls.length).toEqual(1)
 			expect(window.gameOver).toHaveBeenCalledWith()
 	
+	
 	describe "Object startGame.init WITH Spy", ->
 		beforeEach ->
 			spyOn(window, 'startGame')
@@ -31,20 +34,16 @@ describe "Core Game", ->
 			expect(startGame).toHaveBeenCalledWith()
 	
 	describe "Object startGame.sortCards WITHOUT Spy", ->
-		sg = null
-		beforeEach -> 
-			sg = new startGame
-			
 		it "variables", ->
 			expect(done).toEqual(0)
 			expect(array).toNotEqual([1,2,3,1,2,3])
 		
 		xit "tracks that the spy was called", ->
-			spyOn(sg, 'sortCards')
-			sg.sortCards
-			expect(sg.sortCards()).toHaveBeenCalled()
-			expect(sg.sortCards.calls.length).toEqual(1)
-			expect(sg.sortCards).toHaveBeenCalledWith()
+			spyOn(@sg, 'sortCards')
+			@sg.sortCards
+			expect(@sg.sortCards()).toHaveBeenCalled()
+			expect(@sg.sortCards.calls.length).toEqual(1)
+			expect(@sg.sortCards).toHaveBeenCalledWith()
 			
 		xit "$('div.numbers').click", ->
 			spyEvent = spyOnEvent('div.numbers', 'click')
@@ -53,54 +52,46 @@ describe "Core Game", ->
 			expect(spyEvent).toHaveBeenTriggered()
 			
 		it "$('div.numbers').click", ->
-			spyOn(sg, 'selectCards')
-			$("div.numbers").click(sg.selectCards)
+			spyOn(@sg, 'selectCards')
+			$("div.numbers").click(@sg.selectCards)
 			#expect(sg.selectCards).toHaveBeenCalled()
 		
   
 	describe "Object startGame.sortCards WITH spy", ->
-		sg = null
 		beforeEach -> 
-			sg = new startGame
-			spyOn(sg, 'sortCards')
-			sg.sortCards
+			spyOn(@sg, 'sortCards')
+			@sg.sortCards
 		
 		xit "tracks that the spy was called", ->
-			expect(startGame.sortCards).toHaveBeenCalled()
-			expect(startGame.sortCards.calls.length).toEqual(1)
-			expect(startGame.sortCards).toHaveBeenCalledWith()
+			expect(@sg.sortCards).toHaveBeenCalled()
+			expect(@sg.sortCards.calls.length).toEqual(1)
+			expect(@sg.sortCards).toHaveBeenCalledWith()
 		
 	describe "Object startGame.sortCards WITHOUT spy", ->
-		sg = null
 		beforeEach -> 
-			sg = new startGame
-			sg.sortCards
+			@sg.sortCards
 		
 		it "variables", ->
 			expect(cards[0].val).toContain(1,2,3)
 			
-		it "$('div#content')", ->
+		xit "$('div#content')", ->
 			expect($("div#content").html()).toBe("")
 		
 	
 	describe "Object startGame.selectCards WITH Spy", ->
-		sg = null
 		beforeEach ->
-			sg = new startGame
-			spyOn(sg, 'selectCards')
-			sg.selectCards
+			spyOn(@sg, 'selectCards')
+			@sg.selectCards
 	
 		xit "tracks that the spy was called", ->
-			expect(startGame.selectCards).toHaveBeenCalled()
-			expect(startGame.selectCards.calls.length).toEqual(1)
-			expect(startGame.selectCards).toHaveBeenCalledWith()
+			expect(@sg.selectCards).toHaveBeenCalled()
+			expect(@sg.selectCards.calls.length).toEqual(1)
+			expect(@sg.selectCards).toHaveBeenCalledWith()
   
 	
 	describe "Object startGame.selectCards WITHOUT spy", ->
-		sg = null
 		beforeEach ->
-			sg = new startGame
-			sg.selectCards
+			@sg.selectCards
 			
 		it "variables", ->
 			expect(choose).toEqual(0)
